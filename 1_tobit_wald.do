@@ -3,7 +3,7 @@ version 18.0
 clear all
 clear all
 
-import delimited using "/Users/majunhao/Desktop/中美数据/中国2.csv", ///
+import delimited using ".csv", ///
     varnames(1) clear bindquote(strict) encoding("gb18030")
 *import delimited using "/Users/majunhao/Desktop/中美数据/中国1.csv", varnames(1) clear
 
@@ -58,7 +58,7 @@ set more off
 
 
 * Import the China 2018-2025 dataset.
-import delimited using "/Users/majunhao/Desktop/中美数据/中国2-1.csv", ///
+import delimited using ".csv", ///
     varnames(1) clear bindquote(strict) encoding("gb18030")
 
 * Assess multicollinearity.
@@ -101,7 +101,7 @@ clear all
 set more off
 
 * Import the dataset.
-import delimited using "/Users/majunhao/Desktop/中美数据/美国1-2.csv", ///
+import delimited using ".csv", ///
     varnames(1) clear bindquote(strict) encoding("gb18030")
 
 * Assess multicollinearity.
@@ -141,7 +141,7 @@ clear all
 set more off
 
 * Import the dataset.
-import delimited using "/Users/majunhao/Desktop/中美数据/美国2-1.csv", ///
+import delimited using ".csv", ///
     varnames(1) clear bindquote(strict) encoding("gb18030")
 
 * Assess multicollinearity.
