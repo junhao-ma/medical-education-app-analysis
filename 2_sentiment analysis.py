@@ -12,7 +12,7 @@ labels=[]
 label_prediction =[]
 
 # 读入 access token ，该数值在第一个文件中生成
-access_token='24.f0da1c09cc03127565e4731bf93accaf.2592000.1695613966.282335-37845346'
+access_token=''
 http=urllib3.PoolManager()
 url='https://aip.baidubce.com/rpc/2.0/nlp/v1/sentiment_classify?access_token='+access_token
 
