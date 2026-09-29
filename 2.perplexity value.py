@@ -92,8 +92,8 @@ def computer_perplexity_values(testset,dictionary,size_dictionary,limit,start,st
                                                     update_every=1,
                                                     chunksize=100,
                                                     passes=10,
-                                                    eta=0.1,
-                                                    alpha='asymmetric',
+                                                    eta=0.1,# beta
+                                                    alpha='0.1',
                                                     per_word_topics=True)#此处的参数只有两个需要调整，一个是eta,就是beta,文献里有
                                                                          #直接确定为0.1的，也可以让算法自己先学习一下，那就填‘auto’
                                                                          # 看一下效果，之后调整。alpha同理
