@@ -1,3 +1,9 @@
+# Set the number of topics for the current country-phase corpus.
+# China 2009-2017: 8 topics
+# China 2018-2025: 12 topics
+# US 2009-2017: 9 topics
+# US 2018-2025: 10 topics
+NUM_TOPICS = 8
 # 第三步 根据困惑度计算出来的最佳主题数，构建LDA模型，并将预测的主题概率输出
 import os.path
 import warnings
