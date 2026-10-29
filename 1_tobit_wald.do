@@ -1,4 +1,4 @@
-//中国阶段1
+
 version 18.0
 clear all
 clear all
@@ -51,7 +51,7 @@ estat vif
 * https://www.stata.com/manuals/rtobitpostestimation.pdf
 
 
-//中国阶段2
+
 version 18.0
 clear all
 set more off
@@ -95,7 +95,7 @@ testnl [m1_pd]y9  = -[m2_nd]y9
 testnl [m1_pd]y11 = -[m2_nd]y11
 testnl [m1_pd]y12 = -[m2_nd]y12
 
-//中国阶段3
+
 version 18.0
 clear all
 set more off
@@ -134,7 +134,7 @@ testnl [m1_pd]y7 = -[m2_nd]y7
 testnl [m1_pd]y8 = -[m2_nd]y8
 testnl [m1_pd]y9 = -[m2_nd]y9
 
-//中国阶段4
+
 
 version 18.0
 clear all
